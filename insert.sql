@@ -9,9 +9,9 @@ INSERT INTO contato (nome, email, datanascimento) VALUES
 -- Inserindo endereços
 INSERT INTO endereco (logradouro, numero, complemento, bairro, cidade, uf, cep, idcontato) VALUES 
 ('Rua A', '100', 'Apto 101', 'Centro', 'São Paulo', 'SP', '01000-000', 1),
-('Avenida B', '200', NULL, 'Jardim', 'Rio de Janeiro', 'RJ', '20000-000', 2),
+('Avenida B', '200', '', 'Jardim', 'Rio de Janeiro', 'RJ', '20000-000', 2),
 ('Praça C', '300', 'Casa 1', 'Jardim América', 'Belo Horizonte', 'MG', '30000-000', 3),
-('Rua D', '400', NULL, 'Itaim', 'São Paulo', 'SP', '04000-000', 4),
+('Rua D', '400', '', 'Itaim', 'São Paulo', 'SP', '04000-000', 4),
 ('Avenida E', '500', 'Sala 202', 'Vila Nova', 'Curitiba', 'PR', '80000-000', 5);
 
 -- Inserindo telefones
